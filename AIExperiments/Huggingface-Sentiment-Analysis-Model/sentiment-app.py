@@ -6,7 +6,7 @@ from transformers import pipeline
 # Load the sentiment analysis model at startup
 print("Loading sentiment model...")
 sentiment_pipeline = pipeline(
-    "sentiment-analysis",
+    "sentiment-analysis1",
     model="cardiffnlp/twitter-roberta-base-sentiment-latest"
 )
 print("Model ready!")
